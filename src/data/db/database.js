@@ -116,16 +116,16 @@ const database = {
     {
       id: 3,
       title: "Travel Mito",
-      subtitle: "Hackaton - Projet réalisé sur 24h ",
-      imageUrl: "/images/portfolio-image-2.jpg",
+      subtitle: "Hackaton - Projet réalisé sur 24h sur le thème voyage. TravelMito vous permet d'esquiver habilement une invitation à aller voir le dernier film des frères Dardenne, en pretextant un voyage et vous en fournissant les preuves. ATTENTION : Ne fonctionne pas sur mobile, et mettra un peu de temps à charger suivant votre connexion.",
+      imageUrl: "/images/travelmito1.png",
+      largeImageUrl: ["/images/travelmito1.png", "/images/travelmito2.png"],
       url: 'https://mbirepinte-github-io-travel-mito.vercel.app/'
     },
     {
       id: 4,
-      title: "Pen Holder",
-      subtitle: "A pen holder with beautiful design.",
+      title: "Portfolio 2.0 (en cours)",
+      subtitle: "Familiarisation avec React Fiber et les animations blender.",
       imageUrl: "/images/portfolio-image-3.jpg",
-      largeImageUrl: ["/images/portfolio-image-3-lg.jpg"],
       url: '#'
     },
    /*  */
