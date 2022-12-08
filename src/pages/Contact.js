@@ -83,7 +83,7 @@ function Contact() {
             <div className="row">
               <div className="col-lg-6">
                 <div className="mi-contact-formwrapper">
-                  <h4>Get In Touch</h4>
+                 {/*  <h4>Get In Touch</h4> */}
                   <form
                     action="#"
                     className="mi-form mi-contact-form"

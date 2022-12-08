@@ -124,7 +124,7 @@ const database = {
     {
       id: 3,
       title: "Travel Mito",
-      subtitle: "Hackaton - Projet réalisé en 24h sur le thème voyage. TravelMito vous permet d'esquiver habilement une invitation à aller voir le dernier film des frères Dardenne, en pretextant un voyage et vous en fournissant les preuves. ATTENTION : Ne fonctionne pas sur mobile, et mettra un peu de temps à charger suivant votre connexion.",
+      subtitle: "Hackaton - Projet réalisé en 24h sur le thème voyage. TravelMito vous permet d'esquiver habilement une invitation à aller voir le dernier film des frères Dardenne, en pretextant un voyage et en vous en fournissant les preuves. ATTENTION : Ne fonctionne pas sur mobile, et mettra un peu de temps à charger suivant votre connexion.",
       imageUrl: "/images/travelmito1.png",
       largeImageUrl: ["/images/travelmito1.png", "/images/travelmito2.png"],
       url: 'https://mbirepinte-github-io-travel-mito.vercel.app/'
@@ -152,7 +152,7 @@ const database = {
         year: "2015 - 2022",
         position: "Assistant projet",
         company: "Tissot Industrie",
-        details: "J'ai évolué  dans mon entreprise en tant qu'assistant projet. J'avais pour tâche, la réalisation d'études techniques et financières de projets clés en main internationnaux, dans le secteur de l'oil and gas. Une autre composante de mon poste était le suivi de facturation, le planning, le reporting, de projets concrétisés. J'ai pu m'excercer sur VBA/Excel à cette occasion."
+        details: "J'ai évolué  dans mon entreprise en tant qu'assistant projet. J'avais pour tâche, la réalisation d'études techniques et financières de projets clés en main internationaux, dans le secteur de l'oil and gas. Une autre composante de mon poste était le suivi de facturation, le planning, le reporting, de projets concrétisés. J'ai pu m'excercer sur VBA/Excel à cette occasion."
       },
       {
         id: 3,
