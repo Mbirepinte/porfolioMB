@@ -143,7 +143,7 @@ function About() {
                     )}
                   </ul>
                   <a href={information.cvfile} className="mi-button">
-                    Téléchargez mon CV!
+                    Téléchargez mon CV
                   </a>
                 </div>
               </div>

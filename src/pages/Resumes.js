@@ -27,7 +27,7 @@ function Resumes() {
   return (
     <Layout>
       <Helmet>
-        <title>Resume - Chester React Personal Portfolio Template</title>
+        <title>Resume - MB Portfolio</title>
         <meta
           name="description"
           content="Chester React Personal Portfolio Template Resume Page"
@@ -36,7 +36,7 @@ function Resumes() {
       <Suspense fallback={<Spinner />}>
         <div className="mi-skills-area mi-section mi-padding-top">
           <div className="container">
-            <Sectiontitle title="My Skills" />
+            <Sectiontitle title="Mes compétences" />
             <div className="mi-skills">
               <div className="row mt-30-reverse">
                 {skills.map((skill) => (
@@ -54,15 +54,15 @@ function Resumes() {
         </div>
         <div className="mi-resume-area mi-section mi-padding-top mi-padding-bottom">
           <div className="container">
-            <Sectiontitle title="Resume" />
-            <Smalltitle title="Working Experience" icon="briefcase" />
+            <Sectiontitle title="Mon parcours" />
+            <Smalltitle title="Expérience professionelle" icon="briefcase" />
             <div className="mi-resume-wrapper">
               {workingExperience.map((workingExp) => (
                 <Resume key={workingExp.id} resumeData={workingExp} />
               ))}
             </div>
             <div className="mt-30"></div>
-            <Smalltitle title="Educational Qualifications" icon="book" />
+            <Smalltitle title="Parcours Scolaire" icon="book" />
             <div className="mi-resume-wrapper">
               {educationExperience.map((educatonExp) => (
                 <Resume key={educatonExp.id} resumeData={educatonExp} />

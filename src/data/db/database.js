@@ -71,27 +71,35 @@ const database = {
   skills: [
     {
       title: "HTML5",
-      value: 95
+      value: 80
     },
     {
       title: "CSS3",
-      value: 90
+      value: 70
     },
     {
       title: "Javascript",
       value: 70
     },
     {
-      title: "jQuery",
-      value: 85
+      title: "SQL",
+      value: 70
     },
     {
       title: "ReactJS",
-      value: 80
+      value: 70
     },
     {
-      title: "Photoshop",
-      value: 65
+      title: "NodeJS",
+      value: 70
+    },
+    {
+      title: "Estimation de compétences",
+      value: 1
+    },
+    {
+      title: "Second degré",
+      value: 100
     }
   ],
   portfolios: [
@@ -116,7 +124,7 @@ const database = {
     {
       id: 3,
       title: "Travel Mito",
-      subtitle: "Hackaton - Projet réalisé sur 24h sur le thème voyage. TravelMito vous permet d'esquiver habilement une invitation à aller voir le dernier film des frères Dardenne, en pretextant un voyage et vous en fournissant les preuves. ATTENTION : Ne fonctionne pas sur mobile, et mettra un peu de temps à charger suivant votre connexion.",
+      subtitle: "Hackaton - Projet réalisé en 24h sur le thème voyage. TravelMito vous permet d'esquiver habilement une invitation à aller voir le dernier film des frères Dardenne, en pretextant un voyage et vous en fournissant les preuves. ATTENTION : Ne fonctionne pas sur mobile, et mettra un peu de temps à charger suivant votre connexion.",
       imageUrl: "/images/travelmito1.png",
       largeImageUrl: ["/images/travelmito1.png", "/images/travelmito2.png"],
       url: 'https://mbirepinte-github-io-travel-mito.vercel.app/'
@@ -134,24 +142,31 @@ const database = {
     workingExperience: [
       {
         id: 1,
-        year: "2018 - Present",
-        position: "Frontend Web Developer",
-        company: "Abc Company",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        year: "2022 - Maintenant",
+        position: "Développeur Web Fullstack, Spécialité Javascript",
+        company: "Wild Code School",
+        details: "Je suis actuellement en formation à la Wild Code School, où je suis formé au développement web et mobile. J'ai déjà pu mettre en pratique mes compétences en Javascript, React, NodeJS, SQL, HTML et CSS."
       },
       {
         id: 2,
-        year: "2016 - 2018",
-        position: "Frontend Web Developer",
-        company: "CBA Company",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        year: "2015 - 2022",
+        position: "Assistant projet",
+        company: "Tissot Industrie",
+        details: "J'ai évolué  dans mon entreprise en tant qu'assistant projet. J'avais pour tâche, la réalisation d'études techniques et financières de projets clés en main internationnaux, dans le secteur de l'oil and gas. Une autre composante de mon poste était le suivi de facturation, le planning, le reporting, de projets concrétisés. J'ai pu m'excercer sur VBA/Excel à cette occasion."
       },
       {
         id: 3,
-        year: "2014 - 1016",
-        position: "UI/UX Designer",
-        company: "Example Company",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        year: "2013 - 2015",
+        position: "Contrôleur Qualité",
+        company: "Tissot Industrie",
+        details: "J'ai travaillé en tant que contrôleur qualité, dans une chaudronnerie familiale qui vient de fêter ses 80 ans. J'avais pour tâche entre autre, les contrôles non destructifs d'assemblages métalliques electrosoudés, la constitution de dossiers de fin d'affaire, et la veille normative. Bénéficiant d'une grande autonomie, c'est à ce poste que j'ai pu produire mes premiers codes via des formulaires VBA automatisés. "
+      },
+      {
+        id: 4,
+        year: "2010 - 2013",
+        position: "Manager",
+        company: "McDonald's",
+        details: "En 2005, afin de financer mes études, je fais mes débuts en tant qu'équipier dans un restaurant du Sud de Bordeaux. Ayant l'opportunité d'évoluer, je mets mes études de côté et obtient mes galons de manager."
       }
     ],
     educationExperience: [
