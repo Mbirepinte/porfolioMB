@@ -95,17 +95,17 @@ function About() {
               <div className="col-lg-6">
                 <div className="mi-about-content">
                   <h3>
-                    Je suis <span className="color-theme">{information.name}</span>
+                    Je m'appelle <span className="color-theme">{information.name}</span>
                   </h3>
                   <p>
-                    Je suis un développeur web et mobile Junior. Curieux, autonome, et enthousiaste, je suis disponible pour travailler sur vos projets.
+                    Je suis un développeur Junior, web et mobile, curieux, autonome, et enthousiaste. Je suis disponible pour travailler sur vos projets.
                   </p>
                   <ul>
-                    {!information.name ? null : (
+              {/*       {!information.name ? null : (
                       <li>
                         <b>Je m'appelle</b> {information.name}
                       </li>
-                    )}
+                    )} */}
                     {!information.age ? null : (
                       <li>
                         <b>Age</b> {information.age} Ans

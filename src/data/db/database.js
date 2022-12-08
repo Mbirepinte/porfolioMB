@@ -3,7 +3,7 @@ import Mock from "../mock";
 const database = {
   information: {
     name: 'Michael Birepinte',
-    aboutContent: "Je suis un développeur web et mobile Junior. Tout juste reconverti, mais ayant toujours été très à l'aise avec la technologie, je suis à la recherche d'une nouvelle première expérience professionnelle. Curieux, autonome, et enthousiaste, je suis disponible pour travailler sur vos projets.",
+    aboutContent: "Je suis un développeur junior, web et mobile. Tout juste reconverti, mais ayant toujours été très à l'aise avec la technologie, je suis à la recherche d'une nouvelle première expérience professionnelle. Curieux, autonome, et enthousiaste, je suis disponible pour travailler sur vos projets.",
     age: 38,
     phone: '',
     nationality: '',
@@ -27,15 +27,15 @@ const database = {
   },
   services: [
     {
-      title: "Web Design",
+      title: "Développement Web et Mobile",
       icon: 'brush-alt',
-      details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
+      details: "De formation fullstack, je suis aussi à l'aise avec le front-end que le back-end. Ayant travaillé en mode projet grâce eux méthodes SCRUM, je saurais m'intégrer parfaitement à votre équipe."
     },
-    {
+    /* {
       title: "Web Development",
       icon: 'code',
       details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
-    },
+    }, */
 /*     {
       title: "Mobile Application",
       icon: 'mobile',
@@ -44,23 +44,23 @@ const database = {
   ],
   reviews: [
     {
-      id: 1,
+      id: 3,
       content: "This web developer is a great asset to any team. He is a hard worker and a great communicator. He is always willing to learn new things and is a great problem solver.",
       author: {
-        name: 'Bill Gates',
+        name: 'Bill G.',
         designation: 'Développeur à la retraite, Microsoft'
       }
     },
     {
       id: 2,
-      content: "J'ai déjà vu des CD tourner mais cette fois, mais jamais de cette façon.",
+      content: "J'ai déjà vu des CD tourner, mais jamais de cette façon. Les bras m'en tombent.",
       author: {
         name: 'Olga Yasnolpolskaya',
         designation: 'CTO de Workit'
       }
     },
     {
-      id: 3,
+      id: 1,
       content: "Il casse pas trois pattes à un canard, mais il se débrouille.",
       author: {
         name: 'David Faure',
