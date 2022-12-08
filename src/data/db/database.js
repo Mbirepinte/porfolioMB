@@ -163,33 +163,33 @@ const database = {
       },
       {
         id: 4,
-        year: "2010 - 2013",
-        position: "Manager",
+        year: "2004 - 2013",
+        position: "Equipier puis Manager",
         company: "McDonald's",
-        details: "En 2005, afin de financer mes études, je fais mes débuts en tant qu'équipier dans un restaurant du Sud de Bordeaux. Ayant l'opportunité d'évoluer, je mets mes études de côté et obtient mes galons de manager."
+        details: "En 2004, afin de financer mes études, je fais mes débuts en tant qu'équipier dans un restaurant du Sud de Bordeaux. Ayant l'opportunité d'évoluer, je mets mes études de côté et obtient mes galons de manager."
       }
     ],
     educationExperience: [
       {
         id: 1,
-        year: "2018 - 2019",
-        graduation: "Master of Science",
-        university: "Abc University",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        year: "2005 - 2009",
+        graduation: "Licence Histoire de l'art",
+        university: "Université de Bordeaux 3",
+        details: "Passionné d'archéologie, je m'oriente -sans succès - vers la licence correspondante."
       },
       {
         id: 2,
-        year: "2016 - 2018",
-        graduation: "Bachelor of Science",
-        university: "Abc University",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        year: "2001 - 2004",
+        graduation: "Licence of Sciences de la matière",
+        university: "Université de Bordeaux 1",
+        details: ""
       },
       {
         id: 3,
-        year: "2015 - 2016",
-        graduation: "Higher Schoold Graduation",
-        university: "Abc College",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        year: "2000 - 2001",
+        graduation: "Baccalauréat Scientifique ",
+        university: "Lycée Jean Moulin, Langon(33)",
+        details: "Mention assez bien"
       }
     ]
   },
