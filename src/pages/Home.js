@@ -19,10 +19,10 @@ function Home({ lightMode }) {
   return (
     <Layout>
       <Helmet>
-        <title>Home - Chester React Personal Portfolio Template</title>
+        <title>Michael Birepinte</title>
         <meta
           name="description"
-          content="Chester React Personal Portfolio Template Homepage"
+          content="Personal Portfolio Template Homepage"
         />
       </Helmet>
       <Suspense fallback={<Spinner />}>

@@ -3,14 +3,14 @@ import Mock from "../mock";
 const database = {
   information: {
     name: 'Michael Birepinte',
-    aboutContent: "I am a frontend web developer. I can provide clean code and pixel perfect design. I also make website more & more interactive with web animations.",
+    aboutContent: "Je suis un développeur web et mobile Junior. Tout juste reconverti, mais ayant toujours été très à l'aise avec la tech, je suis à la recherche d'une nouvelle première expérience professionnelle. Curieux, autonome, et enthousiaste, je suis disponible pour travailler sur vos projets.",
     age: 38,
     phone: '+33 62 35 66 337',
     nationality: 'Français',
     language: 'Français, Anglais',
     email: 'mickael.birepinte@gmail.com',
     address: 'Floirac, Gironde(33720), France',
-    freelanceStatus: 'Available',
+    freelanceStatus: 'Disponible',
     socialLinks: {
       facebook: 'https://facebook.com',
       twitter: 'https://twitter.com',
