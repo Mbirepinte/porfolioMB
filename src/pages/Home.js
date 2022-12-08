@@ -19,10 +19,10 @@ function Home({ lightMode }) {
   return (
     <Layout>
       <Helmet>
-        <title>Michael Birepinte</title>
+        <title>MB</title>
         <meta
           name="description"
-          content="Personal Portfolio Template Homepage"
+          content="MB Portfolio Homepage"
         />
       </Helmet>
       <Suspense fallback={<Spinner />}>

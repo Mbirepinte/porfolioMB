@@ -58,16 +58,16 @@ function About() {
   return (
     <Layout>
       <Helmet>
-        <title>About - Chester React Personal Portfolio Template</title>
+        <title>About - MB Portfolio</title>
         <meta
           name="description"
-          content="Chester React Personal Portfolio Template About Page"
+          content="MB Portfolio About Page"
         />
       </Helmet>
       <Suspense fallback={<Spinner />}>
         <div className="mi-about-area mi-section mi-padding-top">
           <div className="container">
-            <Sectiontitle title="About Me" />
+            <Sectiontitle title="A propos" />
             <div className="row align-items-center">
               <div className="col-lg-6">
                 <div className="mi-about-image">
@@ -95,27 +95,25 @@ function About() {
               <div className="col-lg-6">
                 <div className="mi-about-content">
                   <h3>
-                    I am <span className="color-theme">{information.name}</span>
+                    Je suis <span className="color-theme">{information.name}</span>
                   </h3>
                   <p>
-                    I am a frontend web developer. I can provide clean code and
-                    pixel perfect design. I also make website more & more
-                    interactive with web animations.
+                    Je suis un développeur web et mobile Junior. Curieux, autonome, et enthousiaste, je suis disponible pour travailler sur vos projets.
                   </p>
                   <ul>
                     {!information.name ? null : (
                       <li>
-                        <b>Full Name</b> {information.name}
+                        <b>Je m'appelle</b> {information.name}
                       </li>
                     )}
                     {!information.age ? null : (
                       <li>
-                        <b>Age</b> {information.age} Years
+                        <b>Age</b> {information.age} Ans
                       </li>
                     )}
                     {!information.phone ? null : (
                       <li>
-                        <b>Phone</b> {information.phone}
+                        <b>Téléphone</b> {information.phone}
                       </li>
                     )}
                     {!information.nationality ? null : (
@@ -125,7 +123,7 @@ function About() {
                     )}
                     {!information.language ? null : (
                       <li>
-                        <b>Languages</b> {information.language}
+                        <b>Langues</b> {information.language}
                       </li>
                     )}
                     {!information.email ? null : (
@@ -135,17 +133,17 @@ function About() {
                     )}
                     {!information.address ? null : (
                       <li>
-                        <b>Address</b> {information.address}
+                        <b>Adresse</b> {information.address}
                       </li>
                     )}
                     {!information.freelanceStatus ? null : (
                       <li>
-                        <b>Freelance</b> {information.freelanceStatus}
+                        <b>Disponibilité</b> {information.freelanceStatus}
                       </li>
                     )}
                   </ul>
                   <a href={information.cvfile} className="mi-button">
-                    Download CV
+                    Téléchargez mon CV!
                   </a>
                 </div>
               </div>
@@ -154,7 +152,7 @@ function About() {
         </div>
         <div className="mi-service-area mi-section mi-padding-top">
           <div className="container">
-            <Sectiontitle title="Services" />
+            <Sectiontitle title="Mes services" />
             <div className="mi-service-wrapper">
               <div className="row mt-30-reverse">
                 {services.map((service) => (

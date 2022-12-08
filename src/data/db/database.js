@@ -3,27 +3,27 @@ import Mock from "../mock";
 const database = {
   information: {
     name: 'Michael Birepinte',
-    aboutContent: "Je suis un développeur web et mobile Junior. Tout juste reconverti, mais ayant toujours été très à l'aise avec la tech, je suis à la recherche d'une nouvelle première expérience professionnelle. Curieux, autonome, et enthousiaste, je suis disponible pour travailler sur vos projets.",
+    aboutContent: "Je suis un développeur web et mobile Junior. Tout juste reconverti, mais ayant toujours été très à l'aise avec la technologie, je suis à la recherche d'une nouvelle première expérience professionnelle. Curieux, autonome, et enthousiaste, je suis disponible pour travailler sur vos projets.",
     age: 38,
-    phone: '+33 62 35 66 337',
-    nationality: 'Français',
+    phone: '',
+    nationality: '',
     language: 'Français, Anglais',
     email: 'mickael.birepinte@gmail.com',
-    address: 'Floirac, Gironde(33720), France',
-    freelanceStatus: 'Disponible',
+    address: 'Floirac, Gironde (33720), France',
+    freelanceStatus: 'Alternance, ou stage de préembauche',
     socialLinks: {
-      facebook: 'https://facebook.com',
-      twitter: 'https://twitter.com',
+      facebook: '',
+      twitter: '',
       pinterest: '',
       behance: '',
-      linkedin: '',
+      linkedin: 'https://www.linkedin.com/in/michael-birepinte/',
       dribbble: '',
-      github: 'https://github.com'
+      github: 'https://github.com/Mbirepinte'
     },
     brandImage: '/images/tissot-portraits-58.jpg',
     aboutImage: '/images/tissot-bureaux-62.jpg',
     aboutImageLg: '/images/about-image-lg.jpg',
-    cvfile: '/files/empty.pdf'
+    cvfile: '/files/CV-MichaelBirepinte Nov22.pdf'
   },
   services: [
     {
@@ -36,11 +36,11 @@ const database = {
       icon: 'code',
       details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
     },
-    {
+/*     {
       title: "Mobile Application",
       icon: 'mobile',
       details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
-    }
+    } */
   ],
   reviews: [
     {
