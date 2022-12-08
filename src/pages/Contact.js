@@ -70,7 +70,7 @@ function Contact() {
   return (
     <Layout>
       <Helmet>
-        <title>Contact - Chester React Personal Portfolio Template</title>
+        <title>Contact - MB Portfolio</title>
         <meta
           name="description"
           content="Chester React Personal Portfolio Template Contact Page"
@@ -79,7 +79,7 @@ function Contact() {
       <Suspense fallback={<Spinner />}>
         <div className="mi-contact-area mi-section mi-padding-top mi-padding-bottom">
           <div className="container">
-            <Sectiontitle title="Contact Me" />
+            <Sectiontitle title="Contactez moi" />
             <div className="row">
               <div className="col-lg-6">
                 <div className="mi-contact-formwrapper">
@@ -91,7 +91,7 @@ function Contact() {
                   >
                     <div className="mi-form-field">
                       <label htmlFor="contact-form-name">
-                        Enter your name*
+                        Votre nom*
                       </label>
                       <input
                         onChange={handleChange}
@@ -103,7 +103,7 @@ function Contact() {
                     </div>
                     <div className="mi-form-field">
                       <label htmlFor="contact-form-email">
-                        Enter your email*
+                        Votre adresse email*
                       </label>
                       <input
                         onChange={handleChange}
@@ -115,7 +115,7 @@ function Contact() {
                     </div>
                     <div className="mi-form-field">
                       <label htmlFor="contact-form-subject">
-                        Enter your subject*
+                        Votre sujet*
                       </label>
                       <input
                         onChange={handleChange}
@@ -127,7 +127,7 @@ function Contact() {
                     </div>
                     <div className="mi-form-field">
                       <label htmlFor="contact-form-message">
-                        Enter your Message*
+                        Votre message*
                       </label>
                       <textarea
                         onChange={handleChange}
@@ -140,7 +140,7 @@ function Contact() {
                     </div>
                     <div className="mi-form-field">
                       <button className="mi-button" type="submit">
-                        Send Mail
+                       ENVOI
                       </button>
                     </div>
                   </form>
@@ -155,7 +155,7 @@ function Contact() {
                         <Icon.Phone />
                       </span>
                       <div className="mi-contact-infoblock-content">
-                        <h6>Phone</h6>
+                        <h6>Téléphone</h6>
                         {phoneNumbers.map((phoneNumber) => (
                           <p key={phoneNumber}>
                             <a href={numberFormatter(phoneNumber)}>
@@ -187,7 +187,7 @@ function Contact() {
                         <Icon.MapPin />
                       </span>
                       <div className="mi-contact-infoblock-content">
-                        <h6>Address</h6>
+                        <h6>Adresse</h6>
                         <p>{address}</p>
                       </div>
                     </div>

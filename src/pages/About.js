@@ -98,7 +98,7 @@ function About() {
                     Je m'appelle <span className="color-theme">{information.name}</span>
                   </h3>
                   <p>
-                    Je suis un développeur Junior, web et mobile, curieux, autonome, et enthousiaste. Je suis disponible pour travailler sur vos projets.
+                    Je suis un développeur Junior, web et mobile, curieux, autonome, et enthousiaste.
                   </p>
                   <ul>
               {/*       {!information.name ? null : (
@@ -138,7 +138,7 @@ function About() {
                     )}
                     {!information.freelanceStatus ? null : (
                       <li>
-                        <b>Disponibilité</b> {information.freelanceStatus}
+                        <b>Disponible</b> {information.freelanceStatus}
                       </li>
                     )}
                   </ul>

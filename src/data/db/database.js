@@ -29,7 +29,7 @@ const database = {
     {
       title: "Développement Web et Mobile",
       icon: 'brush-alt',
-      details: "De formation fullstack, je suis aussi à l'aise avec le front-end que le back-end. Ayant travaillé en mode projet grâce eux méthodes SCRUM, je saurais m'intégrer parfaitement à votre équipe."
+      details: "De formation fullstack, je suis aussi à l'aise avec le front-end que le back-end. Ayant travaillé en mode projet en mettant en pratique la méthode SCRUM, je saurais m'intégrer parfaitement à votre équipe."
     },
     /* {
       title: "Web Development",
@@ -97,29 +97,28 @@ const database = {
   portfolios: [
     {
       id: 1,
-      title: "T-shirt Mockup",
-      subtitle: "A beautiful t-shirt mockup.",
-      imageUrl: "/images/portfolio-image-1.jpg",
-      largeImageUrl: ["/images/portfolio-image-1-lg.jpg"],
-      url: 'https://dribbble.com'
+      title: "The Weeknd",
+      subtitle: "Projet 1 - Réalisation d'un site vitrine pour un artiste qui me doit beaucoup.",
+      imageUrl: "/images/theweeknd.png",
+      largeImageUrl: ["/images/theweeknd.png"],
+      url: 'https://theweekndproject.netlify.app/'
     },
     {
       id: 2,
-      title: "Coffee Mug",
-      subtitle: "Awesome coffee mug design.",
-      imageUrl: "/images/portfolio-image-4.jpg",
+      title: "Eat's Simply",
+      subtitle: "Projet 2 - Réalisation d'un site de recettes de cuisine. Une API a été maltraitée dans le cadre de ce projet.",
+      imageUrl: "/images/eat-simply.jpeg",
       largeImageUrl: [
-        "/images/portfolio-image-4-lg.jpg",
-        "/images/portfolio-image-4-lg2.jpg"
+        "/images/eat-simply.jpeg"
       ],
-      url: 'https://facebook.com'
+      url: 'https://eat-s-simply.netlify.app/'
     },
     {
       id: 3,
-      title: "Tea & Coffee Mug",
-      subtitle: "Beautiful mug with logo.",
+      title: "Travel Mito",
+      subtitle: "Hackaton - Projet réalisé sur 24h ",
       imageUrl: "/images/portfolio-image-2.jpg",
-      url: 'https://pinterest.com'
+      url: 'https://mbirepinte-github-io-travel-mito.vercel.app/'
     },
     {
       id: 4,
@@ -179,147 +178,11 @@ const database = {
       }
     ]
   },
-  blogs: [
-    {
-      id: 1,
-      title: 'Markdown & Html supported blog.',
-      featuredImage: '/images/blog-image-1.jpg',
-      filesource: '../../blog/markdown-html-supported-blog.md',
-      createDay: "20",
-      createMonth: 'February',
-      createYear: "2020"
-    },
-    {
-      id: 2,
-      title: 'Installing NodeJS on your device.',
-      featuredImage: '/images/blog-image-2.jpg',
-      filesource: '../../blog/installing-nodejs-on-your-device.md',
-      createDay: "20",
-      createMonth: 'February',
-      createYear: "2020"
-    },
-    {
-      id: 3,
-      title: 'UI/UX design starter with Adobe XD.',
-      featuredImage: '/images/blog-image-3.jpg',
-      filesource: '../../blog/uiux-design-starter-with-adobe-xd.md',
-      createDay: "20",
-      createMonth: 'February',
-      createYear: "2020"
-    },
-    {
-      id: 4,
-      title: 'Boost your post for increasing sales.',
-      featuredImage: '/images/blog-image-4.jpg',
-      filesource: '../../blog/boost-your-post-for-increasing-sales.md',
-      createDay: "20",
-      createMonth: 'February',
-      createYear: "2020"
-    },
-    {
-      id: 5,
-      title: 'Difference between GatsbyJS & NextJS.',
-      featuredImage: '/images/blog-image-5.jpg',
-      filesource: '../../blog/difference-between-gatsbyjs-and-nextjs.md',
-      createDay: "20",
-      createMonth: 'February',
-      createYear: "2020"
-    },
-    {
-      id: 6,
-      title: 'How to choose javascript framework for project.',
-      featuredImage: '/images/blog-image-6.jpg',
-      filesource: '../../blog/how-to-choose-javascript-framework-for-project.md',
-      createDay: "20",
-      createMonth: 'February',
-      createYear: "2020"
-    },
-    {
-      id: 7,
-      title: 'Web automation with python language.',
-      featuredImage: '/images/blog-image-7.jpg',
-      filesource: '../../blog/web-automation-with-python-language.md',
-      createDay: "20",
-      createMonth: 'February',
-      createYear: "2020"
-    },
-    {
-      id: 8,
-      title: 'Time to use latest technology for creating a website.',
-      featuredImage: '/images/blog-image-8.jpg',
-      filesource: '../../blog/time-to-use-latest-technology-for-creating-a-website.md',
-      createDay: "20",
-      createMonth: 'February',
-      createYear: "2020"
-    },
-    {
-      id: 9,
-      title: 'Think out of the box.',
-      featuredImage: '/images/blog-image-9.jpg',
-      filesource: '../../blog/think-out-of-the-box.md',
-      createDay: "20",
-      createMonth: 'February',
-      createYear: "2020"
-    },
-    {
-      id: 10,
-      title: 'Trending designs in 2020.',
-      featuredImage: '/images/blog-image-1.jpg',
-      filesource: '../../blog/trending-designs-in-2020.md',
-      createDay: "20",
-      createMonth: 'February',
-      createYear: "2020"
-    },
-    {
-      id: 11,
-      title: 'How to get 10k instagram followers?',
-      featuredImage: '/images/blog-image-2.jpg',
-      filesource: '../../blog/how-to-get-10k-instagram-followers.md',
-      createDay: "20",
-      createMonth: 'February',
-      createYear: "2020"
-    },
-    {
-      id: 12,
-      title: 'What NodeJS can do?',
-      featuredImage: '/images/blog-image-3.jpg',
-      filesource: '../../blog/what-nodejs-can-do.md',
-      createDay: "20",
-      createMonth: 'February',
-      createYear: "2020"
-    },
-    {
-      id: 13,
-      title: 'Futures of javascript.',
-      featuredImage: '/images/blog-image-4.jpg',
-      filesource: '../../blog/future-of-javascript.md',
-      createDay: "20",
-      createMonth: 'February',
-      createYear: "2020"
-    },
-    {
-      id: 14,
-      title: 'Popular javascript library in 2020.',
-      featuredImage: '/images/blog-image-5.jpg',
-      filesource: '../../blog/popular-javascript-library-in-2020.md',
-      createDay: "20",
-      createMonth: 'February',
-      createYear: "2020"
-    },
-    {
-      id: 15,
-      title: 'Promrammers must read books.',
-      featuredImage: '/images/blog-image-6.jpg',
-      filesource: '../../blog/programmers-must-read-books.md',
-      createDay: "20",
-      createMonth: 'February',
-      createYear: "2020"
-    }
-  ],
+
   contactInfo: {
-    phoneNumbers: ['+012-3456-7891', '+012-3456-7892'],
-    emailAddress: ['admin.sitename@example.com', 'info.sitename@example.com'],
-    address: "121 King Street, Melbourne, Victoria 3000, Australia"
+    phoneNumbers: ['+33 6 23 56 63 37'],
+    emailAddress: ['mickael.birepinte@gmail.com'],
+    address: "Floirac, Gironde (33270), France"
   }
 }
 
