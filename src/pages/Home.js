@@ -19,7 +19,7 @@ function Home({ lightMode }) {
   return (
     <Layout>
       <Helmet>
-        <title>MB</title>
+        <title>Home MB - Portfolio</title>
         <meta
           name="description"
           content="MB Portfolio Homepage"

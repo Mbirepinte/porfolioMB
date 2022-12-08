@@ -9,7 +9,7 @@ const database = {
     nationality: '',
     language: 'Français, Anglais',
     email: 'mickael.birepinte@gmail.com',
-    address: 'Floirac, Gironde (33720), France',
+    address: 'Floirac, Gironde (33270), France',
     freelanceStatus: 'Alternance, ou stage de préembauche',
     socialLinks: {
       facebook: '',
@@ -45,26 +45,26 @@ const database = {
   reviews: [
     {
       id: 1,
-      content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita impedit nobis tempore quaerat quibusdam, aliquid maxime tempora.",
+      content: "This web developer is a great asset to any team. He is a hard worker and a great communicator. He is always willing to learn new things and is a great problem solver.",
       author: {
-        name: 'Burdette Turner',
-        designation: 'Web Developer, Abc Company'
+        name: 'Bill Gates',
+        designation: 'Développeur à la retraite, Microsoft'
       }
     },
     {
       id: 2,
-      content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita impedit nobis tempore quaerat quibusdam.",
+      content: "J'ai déjà vu des CD tourner mais cette fois, mais jamais de cette façon.",
       author: {
-        name: 'Susan Yost',
-        designation: 'Client'
+        name: 'Olga Yasnolpolskaya',
+        designation: 'CTO de Workit'
       }
     },
     {
       id: 3,
-      content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+      content: "Il casse pas trois pattes à un canard, mais il se débrouille.",
       author: {
-        name: 'Irving Feeney',
-        designation: 'Fiverr Client'
+        name: 'David Faure',
+        designation: 'Formateur Wild Code School aux intestins fragiles'
       }
     }
   ],
@@ -129,153 +129,7 @@ const database = {
       largeImageUrl: ["/images/portfolio-image-3-lg.jpg"],
       url: '#'
     },
-    {
-      id: 5,
-      title: "Mug",
-      subtitle: "Mug with awesome style",
-      imageUrl: "/images/portfolio-image-5.jpg",
-      largeImageUrl: ["/images/portfolio-image-5-lg.jpg"]
-    },
-    {
-      id: 6,
-      title: "Pendrive",
-      subtitle: "Free pendrive mockup design.",
-      imageUrl: "/images/portfolio-image-6.jpg",
-      largeImageUrl: ["/images/portfolio-image-6-lg.jpg"]
-    },
-    {
-      id: 7,
-      title: "Beautiful Pendrive",
-      subtitle: "Pendrive with great design & flexible.",
-      imageUrl: "/images/portfolio-image-7.jpg",
-      largeImageUrl: ["/images/portfolio-image-7-lg.jpg"],
-      url: 'https://twitter.com'
-    },
-    {
-      id: 8,
-      title: "Sticker",
-      subtitle: "Clip sticker mockup design.",
-      imageUrl: "/images/portfolio-image-8.jpg",
-      largeImageUrl: ["/images/portfolio-image-8-lg.jpg"]
-    },
-    {
-      id: 9,
-      title: "Packet",
-      subtitle: "Beautiful packet & product design.",
-      imageUrl: "/images/portfolio-image-9.jpg",
-      largeImageUrl: ["/images/portfolio-image-9-lg.jpg"]
-    },
-    {
-      id: 10,
-      title: "Pen Holder",
-      subtitle: "A pen holder with beautiful design.",
-      imageUrl: "/images/portfolio-image-3.jpg",
-      largeImageUrl: ["/images/portfolio-image-3-lg.jpg"],
-      url: '#'
-    },
-    {
-      id: 11,
-      title: "Coffee Mug",
-      subtitle: "Awesome coffee mug design.",
-      imageUrl: "/images/portfolio-image-4.jpg",
-      largeImageUrl: [
-        "/images/portfolio-image-4-lg.jpg",
-        "/images/portfolio-image-4-lg2.jpg"
-      ],
-      url: 'https://facebook.com'
-    },
-    {
-      id: 12,
-      title: "Tea & Coffee Mug",
-      subtitle: "Beautiful mug with logo.",
-      imageUrl: "/images/portfolio-image-2.jpg",
-      url: 'https://pinterest.com'
-    },
-    {
-      id: 13,
-      title: "T-shirt Mockup",
-      subtitle: "A beautiful t-shirt mockup.",
-      imageUrl: "/images/portfolio-image-1.jpg",
-      largeImageUrl: ["/images/portfolio-image-1-lg.jpg"],
-      url: 'https://dribbble.com'
-    },
-    {
-      id: 14,
-      title: "Mug",
-      subtitle: "Mug with awesome style",
-      imageUrl: "/images/portfolio-image-5.jpg",
-      largeImageUrl: ["/images/portfolio-image-5-lg.jpg"]
-    },
-    {
-      id: 15,
-      title: "Pendrive",
-      subtitle: "Free pendrive mockup design.",
-      imageUrl: "/images/portfolio-image-6.jpg",
-      largeImageUrl: ["/images/portfolio-image-6-lg.jpg"]
-    },
-    {
-      id: 16,
-      title: "Beautiful Pendrive",
-      subtitle: "Pendrive with great design & flexible.",
-      imageUrl: "/images/portfolio-image-7.jpg",
-      largeImageUrl: ["/images/portfolio-image-7-lg.jpg"],
-      url: 'https://twitter.com'
-    },
-    {
-      id: 17,
-      title: "Sticker",
-      subtitle: "Clip sticker mockup design.",
-      imageUrl: "/images/portfolio-image-8.jpg",
-      largeImageUrl: ["/images/portfolio-image-8-lg.jpg"]
-    },
-    {
-      id: 18,
-      title: "Packet",
-      subtitle: "Beautiful packet & product design.",
-      imageUrl: "/images/portfolio-image-9.jpg",
-      largeImageUrl: ["/images/portfolio-image-9-lg.jpg"]
-    },
-    {
-      id: 19,
-      title: "T-shirt Mockup",
-      subtitle: "A beautiful t-shirt mockup.",
-      imageUrl: "/images/portfolio-image-1.jpg",
-      largeImageUrl: ["/images/portfolio-image-1-lg.jpg"],
-      url: 'https://dribbble.com'
-    },
-    {
-      id: 20,
-      title: "Coffee Mug",
-      subtitle: "Awesome coffee mug design.",
-      imageUrl: "/images/portfolio-image-4.jpg",
-      largeImageUrl: [
-        "/images/portfolio-image-4-lg.jpg",
-        "/images/portfolio-image-4-lg2.jpg"
-      ],
-      url: 'https://facebook.com'
-    },
-    {
-      id: 21,
-      title: "Tea & Coffee Mug",
-      subtitle: "Beautiful mug with logo.",
-      imageUrl: "/images/portfolio-image-2.jpg",
-      url: 'https://pinterest.com'
-    },
-    {
-      id: 22,
-      title: "Pen Holder",
-      subtitle: "A pen holder with beautiful design.",
-      imageUrl: "/images/portfolio-image-3.jpg",
-      largeImageUrl: ["/images/portfolio-image-3-lg.jpg"],
-      url: '#'
-    },
-    {
-      id: 23,
-      title: "Mug",
-      subtitle: "Mug with awesome style",
-      imageUrl: "/images/portfolio-image-5.jpg",
-      largeImageUrl: ["/images/portfolio-image-5-lg.jpg"]
-    }
+   /*  */
   ],
   experience: {
     workingExperience: [

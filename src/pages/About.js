@@ -58,7 +58,7 @@ function About() {
   return (
     <Layout>
       <Helmet>
-        <title>About - MB Portfolio</title>
+        <title>About me - MB Portfolio</title>
         <meta
           name="description"
           content="MB Portfolio About Page"
@@ -169,7 +169,7 @@ function About() {
         </div>
         <div className="mi-review-area mi-section mi-padding-top mi-padding-bottom">
           <div className="container">
-            <Sectiontitle title="Reviews" />
+            <Sectiontitle title="Avis" />
             <div className="row justify-content-center">
               <div className="col-12">
                 <Slider className="mi-testimonial-slider" {...sliderSettings}>
