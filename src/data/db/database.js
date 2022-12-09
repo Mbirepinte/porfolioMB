@@ -42,6 +42,23 @@ const database = {
       details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
     } */
   ],
+  technos: [
+    {
+      title: "Développement Web et Mobile",
+      icon: 'brush-alt',
+      details: "De formation fullstack, je suis aussi à l'aise avec le front-end que le back-end. Ayant travaillé en mode projet en mettant en pratique la méthode SCRUM, je saurais m'intégrer parfaitement à votre équipe."
+    },
+    /* {
+      title: "Web Development",
+      icon: 'code',
+      details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
+    }, */
+/*     {
+      title: "Mobile Application",
+      icon: 'mobile',
+      details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
+    } */
+  ],
   reviews: [
     {
       id: 3,
@@ -246,5 +263,10 @@ Mock.onGet("/api/blog").reply(config => {
 
 Mock.onGet("/api/contactinfo").reply(config => {
   const response = database.contactInfo;
+  return [200, response];
+});
+
+Mock.onGet("/api/technos").reply(config => {
+  const response = database.technos;
   return [200, response];
 });

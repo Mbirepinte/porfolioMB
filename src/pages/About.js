@@ -16,6 +16,7 @@ function About() {
   const [information, setInformation] = useState("");
   const [services, setServices] = useState([]);
   const [reviews, setReviews] = useState([]);
+  const [technos, setTechnos] = useState([]);
 
   const sliderSettings = {
     dots: false,
@@ -52,6 +53,9 @@ function About() {
     });
     axios.get("/api/reviews").then((response) => {
       setReviews(response.data);
+    });
+      axios.get("/api/technos").then((response) => {
+      setTechnos(response.data);
     });
   }, []);
 
@@ -150,13 +154,29 @@ function About() {
             </div>
           </div>
         </div>
-        
         <div className="mi-service-area mi-section mi-padding-top">
           <div className="container">
             <Sectiontitle title="Mes services" />
             <div className="mi-service-wrapper">
               <div className="row mt-30-reverse">
                 {services.map((service) => (
+                  <div
+                    className="col-lg-4 col-md-6 col-12 mt-30"
+                    key={service.title}
+                  >
+                    <Service content={service} />
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="mi-service-area mi-section mi-padding-top">
+          <div className="container">
+            <Sectiontitle title="Technologies" />
+            <div className="mi-service-wrapper">
+              <div className="row mt-30-reverse">
+                {technos.map((service) => (
                   <div
                     className="col-lg-4 col-md-6 col-12 mt-30"
                     key={service.title}
