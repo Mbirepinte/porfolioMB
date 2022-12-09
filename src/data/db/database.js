@@ -39,7 +39,7 @@ const database = {
       details: ""
     },
     {
-      title: "java-script",
+      title: "Javascript",
       img: '/icons/js.png',
       details: ""
     },
@@ -49,24 +49,24 @@ const database = {
       details: ""
     },
     {
-      title: "react",
+      title: "React",
       img: '/icons/react.png',
       details: ""
     },
     {
-      title: "nodejs",
+      title: "NodeJS",
       img: '/icons/nodejs.png',
       details: ""
     },
     {
-      title: "git",
+      title: "Git",
       img: '/icons/git.png',
       details: ""
     },
   ],
   reviews: [
     {
-      id: 3,
+      id: 1,
       content: "This web developer is a great asset to any team. He is a hard worker and a great communicator. He is always willing to learn new things and is a great problem solver.",
       author: {
         name: 'Bill G.',
@@ -75,18 +75,18 @@ const database = {
     },
     {
       id: 2,
-      content: "J'ai déjà vu des CD tourner, mais jamais de cette façon. Les bras m'en tombent.",
-      author: {
-        name: 'Olga Yasnolpolskaya',
-        designation: 'CTO de Workit'
-      }
-    },
-    {
-      id: 1,
       content: "Il casse pas trois pattes à un canard, mais il se débrouille.",
       author: {
         name: 'David Faure',
         designation: 'Formateur Wild Code School aux intestins fragiles'
+      }
+    },
+    {
+      id: 3,
+      content: "J'ai déjà vu des CD tourner, mais jamais de cette façon. Les bras m'en tombent.",
+      author: {
+        name: 'Olga Yasnolpolskaya',
+        designation: 'CTO de Workit'
       }
     }
   ],

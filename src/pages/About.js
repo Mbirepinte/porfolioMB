@@ -22,10 +22,32 @@ function About() {
   const sliderSettings = {
     dots: false,
     infinite: true,
-    arrows: false,
+    arrows: true,
     speed: 500,
     slidesToShow: 2,
     slidesToScroll: 2,
+    autoplay: true,
+    autoplaySpeed: 6000,
+    pauseOnHover: true,
+    adaptiveHeight: true,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
+
+  const sliderSettingsTechnos = {
+    dots: false,
+    infinite: true,
+    arrows: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 6000,
     pauseOnHover: true,
@@ -172,6 +194,7 @@ function About() {
             <Sectiontitle title="Technologies" />
             <div className="mi-service-wrapper">
               <div className="row mt-30-reverse">
+              <Slider className="mi-testimonial-slider" {...sliderSettingsTechnos}>
                 {technos.map((service) => (
                   <div
                     className="col-lg-4 col-md-6 col-12 mt-30"
@@ -179,7 +202,8 @@ function About() {
                   >
                     <Techno content={service} />
                   </div>
-                ))}
+                ))} 
+                </Slider>
               </div>
             </div>
           </div>
