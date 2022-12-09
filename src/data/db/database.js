@@ -22,7 +22,7 @@ const database = {
     },
     brandImage: '/images/tissot-portraits-58.jpg',
     aboutImage: '/images/tissot-bureaux-62.jpg',
-    aboutImageLg: '',
+    aboutImageLg: '/images/tissot-portraits-58.jpg',
     cvfile: '/files/CV MichaelBirepinte Dec22.pdf'
   },
   services: [

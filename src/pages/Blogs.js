@@ -37,7 +37,7 @@ function Blogs() {
         <title>Blogs - Chester React Personal Portfolio Template</title>
         <meta
           name="description"
-          content="Chester React Personal Portfolio Template Blogs Page"
+          content="MB Portfolio"
         />
       </Helmet>
       <Suspense fallback={<Spinner />}>

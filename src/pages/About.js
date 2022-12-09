@@ -150,6 +150,7 @@ function About() {
             </div>
           </div>
         </div>
+        
         <div className="mi-service-area mi-section mi-padding-top">
           <div className="container">
             <Sectiontitle title="Mes services" />

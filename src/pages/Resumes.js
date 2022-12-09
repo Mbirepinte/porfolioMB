@@ -30,11 +30,11 @@ function Resumes() {
         <title>Resume - MB Portfolio</title>
         <meta
           name="description"
-          content="Chester React Personal Portfolio Template Resume Page"
+          content="MB Portfolio"
         />
       </Helmet>
       <Suspense fallback={<Spinner />}>
-        <div className="mi-skills-area mi-section mi-padding-top">
+   {/*      <div className="mi-skills-area mi-section mi-padding-top">
           <div className="container">
             <Sectiontitle title="Mes compétences" />
             <div className="mi-skills">
@@ -51,7 +51,7 @@ function Resumes() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="mi-resume-area mi-section mi-padding-top mi-padding-bottom">
           <div className="container">
             <Sectiontitle title="Mon parcours" />

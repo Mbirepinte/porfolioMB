@@ -73,7 +73,7 @@ function Contact() {
         <title>Contact - MB Portfolio</title>
         <meta
           name="description"
-          content="Chester React Personal Portfolio Template Contact Page"
+          content="MB Portfolio"
         />
       </Helmet>
       <Suspense fallback={<Spinner />}>
