@@ -21,7 +21,7 @@ const database = {
       github: 'https://github.com/Mbirepinte'
     },
     brandImage: '/images/tissot-portraits-58.jpg',
-    aboutImage: '/images/tissot-bureaux-62.jpg',
+    aboutImage: '/images/tissot-bureaux-63.jpg',
     aboutImageLg: '/images/tissot-portraits-58.jpg',
     cvfile: '/files/CV MichaelBirepinte Dec22.pdf'
   },
@@ -129,8 +129,8 @@ const database = {
       id: 1,
       title: "The Weeknd",
       subtitle: "Projet 1 - Réalisation d'un site vitrine pour un artiste qui me doit beaucoup.",
-      imageUrl: "/images/theweeknd.png",
-      largeImageUrl: ["/images/theweeknd.png"],
+      imageUrl: "/images/theweeknd.jpg",
+      largeImageUrl: ["/images/theweeknd.jpg"],
       url: 'https://theweekndproject.netlify.app/'
     },
     {
@@ -147,8 +147,8 @@ const database = {
       id: 3,
       title: "Travel Mito",
       subtitle: "Hackaton - Projet réalisé en 24h sur le thème voyage. TravelMito vous permet d'esquiver habilement une invitation à un vernissage, en pretextant un voyage et en vous en fournissant les preuves. ATTENTION : Ne fonctionne pas sur mobile, et mettra un peu de temps à charger suivant votre connexion.",
-      imageUrl: "/images/travelmito1.png",
-      largeImageUrl: ["/images/travelmito1.png", "/images/travelmito2.png"],
+      imageUrl: "/images/travelmito1.jpg",
+      largeImageUrl: ["/images/travelmito1.jpg", "/images/travelmito2.jpg"],
       url: 'https://mbirepinte-github-io-travel-mito.vercel.app/'
     },
     {
