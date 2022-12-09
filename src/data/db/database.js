@@ -3,469 +3,201 @@ import Mock from "../mock";
 const database = {
   information: {
     name: 'Michael Birepinte',
-    aboutContent: "I am a frontend web developer. I can provide clean code and pixel perfect design. I also make website more & more interactive with web animations.",
+    aboutContent: "Je suis un développeur junior, web et mobile. Tout juste reconverti, mais ayant toujours été très à l'aise avec la technologie, je suis à la recherche d'une nouvelle première expérience professionnelle. Curieux, autonome, et enthousiaste, je suis disponible pour travailler sur vos projets.",
     age: 38,
-    phone: '+33 62 35 66 337',
-    nationality: 'Français',
+    phone: '',
+    nationality: '',
     language: 'Français, Anglais',
     email: 'mickael.birepinte@gmail.com',
-    address: 'Floirac, Gironde(33720), France',
-    freelanceStatus: 'Available',
+    address: 'Floirac, Gironde (33270), France',
+    freelanceStatus: 'Alternance, ou stage de préembauche',
     socialLinks: {
-      facebook: 'https://facebook.com',
-      twitter: 'https://twitter.com',
+      facebook: '',
+      twitter: '',
       pinterest: '',
       behance: '',
-      linkedin: '',
+      linkedin: 'https://www.linkedin.com/in/michael-birepinte/',
       dribbble: '',
-      github: 'https://github.com'
+      github: 'https://github.com/Mbirepinte'
     },
     brandImage: '/images/tissot-portraits-58.jpg',
     aboutImage: '/images/tissot-bureaux-62.jpg',
     aboutImageLg: '/images/about-image-lg.jpg',
-    cvfile: '/files/empty.pdf'
+    cvfile: '/files/CV-MichaelBirepinte Nov22.pdf'
   },
   services: [
     {
-      title: "Web Design",
+      title: "Développement Web et Mobile",
       icon: 'brush-alt',
-      details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
+      details: "De formation fullstack, je suis aussi à l'aise avec le front-end que le back-end. Ayant travaillé en mode projet en mettant en pratique la méthode SCRUM, je saurais m'intégrer parfaitement à votre équipe."
     },
-    {
+    /* {
       title: "Web Development",
       icon: 'code',
       details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
-    },
-    {
+    }, */
+/*     {
       title: "Mobile Application",
       icon: 'mobile',
       details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
-    }
+    } */
   ],
   reviews: [
     {
-      id: 1,
-      content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita impedit nobis tempore quaerat quibusdam, aliquid maxime tempora.",
+      id: 3,
+      content: "This web developer is a great asset to any team. He is a hard worker and a great communicator. He is always willing to learn new things and is a great problem solver.",
       author: {
-        name: 'Burdette Turner',
-        designation: 'Web Developer, Abc Company'
+        name: 'Bill G.',
+        designation: 'Développeur à la retraite, Microsoft'
       }
     },
     {
       id: 2,
-      content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita impedit nobis tempore quaerat quibusdam.",
+      content: "J'ai déjà vu des CD tourner, mais jamais de cette façon. Les bras m'en tombent.",
       author: {
-        name: 'Susan Yost',
-        designation: 'Client'
+        name: 'Olga Yasnolpolskaya',
+        designation: 'CTO de Workit'
       }
     },
     {
-      id: 3,
-      content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+      id: 1,
+      content: "Il casse pas trois pattes à un canard, mais il se débrouille.",
       author: {
-        name: 'Irving Feeney',
-        designation: 'Fiverr Client'
+        name: 'David Faure',
+        designation: 'Formateur Wild Code School aux intestins fragiles'
       }
     }
   ],
   skills: [
     {
       title: "HTML5",
-      value: 95
+      value: 80
     },
     {
       title: "CSS3",
-      value: 90
+      value: 70
     },
     {
       title: "Javascript",
       value: 70
     },
     {
-      title: "jQuery",
-      value: 85
+      title: "SQL",
+      value: 70
     },
     {
       title: "ReactJS",
-      value: 80
+      value: 70
     },
     {
-      title: "Photoshop",
-      value: 65
+      title: "NodeJS",
+      value: 70
+    },
+    {
+      title: "Estimation de compétences",
+      value: 1
+    },
+    {
+      title: "Second degré",
+      value: 100
     }
   ],
   portfolios: [
     {
       id: 1,
-      title: "T-shirt Mockup",
-      subtitle: "A beautiful t-shirt mockup.",
-      imageUrl: "/images/portfolio-image-1.jpg",
-      largeImageUrl: ["/images/portfolio-image-1-lg.jpg"],
-      url: 'https://dribbble.com'
+      title: "The Weeknd",
+      subtitle: "Projet 1 - Réalisation d'un site vitrine pour un artiste qui me doit beaucoup.",
+      imageUrl: "/images/theweeknd.png",
+      largeImageUrl: ["/images/theweeknd.png"],
+      url: 'https://theweekndproject.netlify.app/'
     },
     {
       id: 2,
-      title: "Coffee Mug",
-      subtitle: "Awesome coffee mug design.",
-      imageUrl: "/images/portfolio-image-4.jpg",
+      title: "Eat's Simply",
+      subtitle: "Projet 2 - Réalisation d'un site de recettes de cuisine. Une API a été maltraitée dans le cadre de ce projet.",
+      imageUrl: "/images/eat-simply.jpeg",
       largeImageUrl: [
-        "/images/portfolio-image-4-lg.jpg",
-        "/images/portfolio-image-4-lg2.jpg"
+        "/images/eat-simply.jpeg"
       ],
-      url: 'https://facebook.com'
+      url: 'https://eat-s-simply.netlify.app/'
     },
     {
       id: 3,
-      title: "Tea & Coffee Mug",
-      subtitle: "Beautiful mug with logo.",
-      imageUrl: "/images/portfolio-image-2.jpg",
-      url: 'https://pinterest.com'
+      title: "Travel Mito",
+      subtitle: "Hackaton - Projet réalisé en 24h sur le thème voyage. TravelMito vous permet d'esquiver habilement une invitation à aller voir le dernier film des frères Dardenne, en pretextant un voyage et en vous en fournissant les preuves. ATTENTION : Ne fonctionne pas sur mobile, et mettra un peu de temps à charger suivant votre connexion.",
+      imageUrl: "/images/travelmito1.png",
+      largeImageUrl: ["/images/travelmito1.png", "/images/travelmito2.png"],
+      url: 'https://mbirepinte-github-io-travel-mito.vercel.app/'
     },
     {
       id: 4,
-      title: "Pen Holder",
-      subtitle: "A pen holder with beautiful design.",
+      title: "Portfolio 2.0 (en cours)",
+      subtitle: "Familiarisation avec React Fiber et les animations blender.",
       imageUrl: "/images/portfolio-image-3.jpg",
-      largeImageUrl: ["/images/portfolio-image-3-lg.jpg"],
       url: '#'
     },
-    {
-      id: 5,
-      title: "Mug",
-      subtitle: "Mug with awesome style",
-      imageUrl: "/images/portfolio-image-5.jpg",
-      largeImageUrl: ["/images/portfolio-image-5-lg.jpg"]
-    },
-    {
-      id: 6,
-      title: "Pendrive",
-      subtitle: "Free pendrive mockup design.",
-      imageUrl: "/images/portfolio-image-6.jpg",
-      largeImageUrl: ["/images/portfolio-image-6-lg.jpg"]
-    },
-    {
-      id: 7,
-      title: "Beautiful Pendrive",
-      subtitle: "Pendrive with great design & flexible.",
-      imageUrl: "/images/portfolio-image-7.jpg",
-      largeImageUrl: ["/images/portfolio-image-7-lg.jpg"],
-      url: 'https://twitter.com'
-    },
-    {
-      id: 8,
-      title: "Sticker",
-      subtitle: "Clip sticker mockup design.",
-      imageUrl: "/images/portfolio-image-8.jpg",
-      largeImageUrl: ["/images/portfolio-image-8-lg.jpg"]
-    },
-    {
-      id: 9,
-      title: "Packet",
-      subtitle: "Beautiful packet & product design.",
-      imageUrl: "/images/portfolio-image-9.jpg",
-      largeImageUrl: ["/images/portfolio-image-9-lg.jpg"]
-    },
-    {
-      id: 10,
-      title: "Pen Holder",
-      subtitle: "A pen holder with beautiful design.",
-      imageUrl: "/images/portfolio-image-3.jpg",
-      largeImageUrl: ["/images/portfolio-image-3-lg.jpg"],
-      url: '#'
-    },
-    {
-      id: 11,
-      title: "Coffee Mug",
-      subtitle: "Awesome coffee mug design.",
-      imageUrl: "/images/portfolio-image-4.jpg",
-      largeImageUrl: [
-        "/images/portfolio-image-4-lg.jpg",
-        "/images/portfolio-image-4-lg2.jpg"
-      ],
-      url: 'https://facebook.com'
-    },
-    {
-      id: 12,
-      title: "Tea & Coffee Mug",
-      subtitle: "Beautiful mug with logo.",
-      imageUrl: "/images/portfolio-image-2.jpg",
-      url: 'https://pinterest.com'
-    },
-    {
-      id: 13,
-      title: "T-shirt Mockup",
-      subtitle: "A beautiful t-shirt mockup.",
-      imageUrl: "/images/portfolio-image-1.jpg",
-      largeImageUrl: ["/images/portfolio-image-1-lg.jpg"],
-      url: 'https://dribbble.com'
-    },
-    {
-      id: 14,
-      title: "Mug",
-      subtitle: "Mug with awesome style",
-      imageUrl: "/images/portfolio-image-5.jpg",
-      largeImageUrl: ["/images/portfolio-image-5-lg.jpg"]
-    },
-    {
-      id: 15,
-      title: "Pendrive",
-      subtitle: "Free pendrive mockup design.",
-      imageUrl: "/images/portfolio-image-6.jpg",
-      largeImageUrl: ["/images/portfolio-image-6-lg.jpg"]
-    },
-    {
-      id: 16,
-      title: "Beautiful Pendrive",
-      subtitle: "Pendrive with great design & flexible.",
-      imageUrl: "/images/portfolio-image-7.jpg",
-      largeImageUrl: ["/images/portfolio-image-7-lg.jpg"],
-      url: 'https://twitter.com'
-    },
-    {
-      id: 17,
-      title: "Sticker",
-      subtitle: "Clip sticker mockup design.",
-      imageUrl: "/images/portfolio-image-8.jpg",
-      largeImageUrl: ["/images/portfolio-image-8-lg.jpg"]
-    },
-    {
-      id: 18,
-      title: "Packet",
-      subtitle: "Beautiful packet & product design.",
-      imageUrl: "/images/portfolio-image-9.jpg",
-      largeImageUrl: ["/images/portfolio-image-9-lg.jpg"]
-    },
-    {
-      id: 19,
-      title: "T-shirt Mockup",
-      subtitle: "A beautiful t-shirt mockup.",
-      imageUrl: "/images/portfolio-image-1.jpg",
-      largeImageUrl: ["/images/portfolio-image-1-lg.jpg"],
-      url: 'https://dribbble.com'
-    },
-    {
-      id: 20,
-      title: "Coffee Mug",
-      subtitle: "Awesome coffee mug design.",
-      imageUrl: "/images/portfolio-image-4.jpg",
-      largeImageUrl: [
-        "/images/portfolio-image-4-lg.jpg",
-        "/images/portfolio-image-4-lg2.jpg"
-      ],
-      url: 'https://facebook.com'
-    },
-    {
-      id: 21,
-      title: "Tea & Coffee Mug",
-      subtitle: "Beautiful mug with logo.",
-      imageUrl: "/images/portfolio-image-2.jpg",
-      url: 'https://pinterest.com'
-    },
-    {
-      id: 22,
-      title: "Pen Holder",
-      subtitle: "A pen holder with beautiful design.",
-      imageUrl: "/images/portfolio-image-3.jpg",
-      largeImageUrl: ["/images/portfolio-image-3-lg.jpg"],
-      url: '#'
-    },
-    {
-      id: 23,
-      title: "Mug",
-      subtitle: "Mug with awesome style",
-      imageUrl: "/images/portfolio-image-5.jpg",
-      largeImageUrl: ["/images/portfolio-image-5-lg.jpg"]
-    }
+   /*  */
   ],
   experience: {
     workingExperience: [
       {
         id: 1,
-        year: "2018 - Present",
-        position: "Frontend Web Developer",
-        company: "Abc Company",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        year: "2022 - Maintenant",
+        position: "Développeur Web Fullstack, Spécialité Javascript",
+        company: "Wild Code School",
+        details: "Je suis actuellement en formation à la Wild Code School, où je suis formé au développement web et mobile. J'ai déjà pu mettre en pratique mes compétences en Javascript, React, NodeJS, SQL, HTML et CSS."
       },
       {
         id: 2,
-        year: "2016 - 2018",
-        position: "Frontend Web Developer",
-        company: "CBA Company",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        year: "2015 - 2022",
+        position: "Assistant projet",
+        company: "Tissot Industrie",
+        details: "J'ai évolué  dans mon entreprise en tant qu'assistant projet. J'avais pour tâche, la réalisation d'études techniques et financières de projets clés en main internationaux, dans le secteur de l'oil and gas. Une autre composante de mon poste était le suivi de facturation, le planning, le reporting, de projets concrétisés. J'ai pu m'excercer sur VBA/Excel à cette occasion."
       },
       {
         id: 3,
-        year: "2014 - 1016",
-        position: "UI/UX Designer",
-        company: "Example Company",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        year: "2013 - 2015",
+        position: "Contrôleur Qualité",
+        company: "Tissot Industrie",
+        details: "J'ai travaillé en tant que contrôleur qualité, dans une chaudronnerie familiale qui vient de fêter ses 80 ans. J'avais pour tâche entre autre, les contrôles non destructifs d'assemblages métalliques electrosoudés, la constitution de dossiers de fin d'affaire, et la veille normative. Bénéficiant d'une grande autonomie, c'est à ce poste que j'ai pu produire mes premiers codes via des formulaires VBA automatisés. "
+      },
+      {
+        id: 4,
+        year: "2004 - 2013",
+        position: "Equipier puis Manager",
+        company: "McDonald's",
+        details: "En 2004, afin de financer mes études, je fais mes débuts en tant qu'équipier dans un restaurant du Sud de Bordeaux. Ayant l'opportunité d'évoluer, je mets mes études de côté et obtient mes galons de manager."
       }
     ],
     educationExperience: [
       {
         id: 1,
-        year: "2018 - 2019",
-        graduation: "Master of Science",
-        university: "Abc University",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        year: "2005 - 2009",
+        graduation: "Licence Histoire de l'art",
+        university: "Université de Bordeaux 3",
+        details: "Passionné d'archéologie, je m'oriente -sans succès - vers la licence correspondante."
       },
       {
         id: 2,
-        year: "2016 - 2018",
-        graduation: "Bachelor of Science",
-        university: "Abc University",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        year: "2001 - 2004",
+        graduation: "Licence of Sciences de la matière",
+        university: "Université de Bordeaux 1",
+        details: ""
       },
       {
         id: 3,
-        year: "2015 - 2016",
-        graduation: "Higher Schoold Graduation",
-        university: "Abc College",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        year: "2000 - 2001",
+        graduation: "Baccalauréat Scientifique ",
+        university: "Lycée Jean Moulin, Langon(33)",
+        details: "Mention assez bien"
       }
     ]
   },
-  blogs: [
-    {
-      id: 1,
-      title: 'Markdown & Html supported blog.',
-      featuredImage: '/images/blog-image-1.jpg',
-      filesource: '../../blog/markdown-html-supported-blog.md',
-      createDay: "20",
-      createMonth: 'February',
-      createYear: "2020"
-    },
-    {
-      id: 2,
-      title: 'Installing NodeJS on your device.',
-      featuredImage: '/images/blog-image-2.jpg',
-      filesource: '../../blog/installing-nodejs-on-your-device.md',
-      createDay: "20",
-      createMonth: 'February',
-      createYear: "2020"
-    },
-    {
-      id: 3,
-      title: 'UI/UX design starter with Adobe XD.',
-      featuredImage: '/images/blog-image-3.jpg',
-      filesource: '../../blog/uiux-design-starter-with-adobe-xd.md',
-      createDay: "20",
-      createMonth: 'February',
-      createYear: "2020"
-    },
-    {
-      id: 4,
-      title: 'Boost your post for increasing sales.',
-      featuredImage: '/images/blog-image-4.jpg',
-      filesource: '../../blog/boost-your-post-for-increasing-sales.md',
-      createDay: "20",
-      createMonth: 'February',
-      createYear: "2020"
-    },
-    {
-      id: 5,
-      title: 'Difference between GatsbyJS & NextJS.',
-      featuredImage: '/images/blog-image-5.jpg',
-      filesource: '../../blog/difference-between-gatsbyjs-and-nextjs.md',
-      createDay: "20",
-      createMonth: 'February',
-      createYear: "2020"
-    },
-    {
-      id: 6,
-      title: 'How to choose javascript framework for project.',
-      featuredImage: '/images/blog-image-6.jpg',
-      filesource: '../../blog/how-to-choose-javascript-framework-for-project.md',
-      createDay: "20",
-      createMonth: 'February',
-      createYear: "2020"
-    },
-    {
-      id: 7,
-      title: 'Web automation with python language.',
-      featuredImage: '/images/blog-image-7.jpg',
-      filesource: '../../blog/web-automation-with-python-language.md',
-      createDay: "20",
-      createMonth: 'February',
-      createYear: "2020"
-    },
-    {
-      id: 8,
-      title: 'Time to use latest technology for creating a website.',
-      featuredImage: '/images/blog-image-8.jpg',
-      filesource: '../../blog/time-to-use-latest-technology-for-creating-a-website.md',
-      createDay: "20",
-      createMonth: 'February',
-      createYear: "2020"
-    },
-    {
-      id: 9,
-      title: 'Think out of the box.',
-      featuredImage: '/images/blog-image-9.jpg',
-      filesource: '../../blog/think-out-of-the-box.md',
-      createDay: "20",
-      createMonth: 'February',
-      createYear: "2020"
-    },
-    {
-      id: 10,
-      title: 'Trending designs in 2020.',
-      featuredImage: '/images/blog-image-1.jpg',
-      filesource: '../../blog/trending-designs-in-2020.md',
-      createDay: "20",
-      createMonth: 'February',
-      createYear: "2020"
-    },
-    {
-      id: 11,
-      title: 'How to get 10k instagram followers?',
-      featuredImage: '/images/blog-image-2.jpg',
-      filesource: '../../blog/how-to-get-10k-instagram-followers.md',
-      createDay: "20",
-      createMonth: 'February',
-      createYear: "2020"
-    },
-    {
-      id: 12,
-      title: 'What NodeJS can do?',
-      featuredImage: '/images/blog-image-3.jpg',
-      filesource: '../../blog/what-nodejs-can-do.md',
-      createDay: "20",
-      createMonth: 'February',
-      createYear: "2020"
-    },
-    {
-      id: 13,
-      title: 'Futures of javascript.',
-      featuredImage: '/images/blog-image-4.jpg',
-      filesource: '../../blog/future-of-javascript.md',
-      createDay: "20",
-      createMonth: 'February',
-      createYear: "2020"
-    },
-    {
-      id: 14,
-      title: 'Popular javascript library in 2020.',
-      featuredImage: '/images/blog-image-5.jpg',
-      filesource: '../../blog/popular-javascript-library-in-2020.md',
-      createDay: "20",
-      createMonth: 'February',
-      createYear: "2020"
-    },
-    {
-      id: 15,
-      title: 'Promrammers must read books.',
-      featuredImage: '/images/blog-image-6.jpg',
-      filesource: '../../blog/programmers-must-read-books.md',
-      createDay: "20",
-      createMonth: 'February',
-      createYear: "2020"
-    }
-  ],
+
   contactInfo: {
-    phoneNumbers: ['+012-3456-7891', '+012-3456-7892'],
-    emailAddress: ['admin.sitename@example.com', 'info.sitename@example.com'],
-    address: "121 King Street, Melbourne, Victoria 3000, Australia"
+    phoneNumbers: ['+33 6 23 56 63 37'],
+    emailAddress: ['mickael.birepinte@gmail.com'],
+    address: "Floirac, Gironde (33270), France"
   }
 }
 

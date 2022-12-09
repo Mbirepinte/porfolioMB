@@ -37,16 +37,16 @@ function Portfolios() {
   return (
     <Layout>
       <Helmet>
-        <title>Portfolios - Chester React Personal Portfolio Template</title>
+        <title>Portfolios - MB Portfolio </title>
         <meta
           name="description"
-          content="Chester React Personal Portfolio Template Portfolios Page"
+          content="Portfolios - MB Portfolio "
         />
       </Helmet>
       <Suspense fallback={<Spinner />}>
         <div className="mi-about mi-section mi-padding-top mi-padding-bottom">
           <div className="container">
-            <Sectiontitle title="Portfolios" />
+            <Sectiontitle title="Réalisations" />
             {<PortfoliosView portfolios={currentPortfolios} />}
             {!(portfolios.length > portfoliosPerPage) ? null : (
               <Pagination

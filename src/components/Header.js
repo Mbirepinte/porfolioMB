@@ -42,28 +42,28 @@ function Header() {
         <ul className="mi-header-menu">
           <li>
             <NavLink to="/" end>
-              <span>Home</span>
+              <span>Accueil</span>
             </NavLink>
           </li>
           <li>
             <NavLink to="/about">
-              <span>About</span>
+              <span>A propos</span>
             </NavLink>
           </li>
           <li>
             <NavLink to="/resume">
-              <span>Resume</span>
+              <span>Mon parcours</span>
             </NavLink>
           </li>
           <li>
             <NavLink to="/portfolios">
-              <span>Portfolios</span>
+              <span>Mes réalisations </span>
             </NavLink>
           </li>
           <li>
-            <NavLink to="/blogs">
+         {/*    <NavLink to="/blogs">
               <span>Blogs</span>
-            </NavLink>
+            </NavLink> */}
           </li>
           <li>
             <NavLink to="/contact">
@@ -77,9 +77,9 @@ function Header() {
             <a
               rel="noopener noreferrer"
               target="_blank"
-              href="https://nuclearthemes.com"
+              href="https://michaelBirepinte.com"
             >
-              NuclearThemes
+              Michael Birepinte
             </a>
           </b>
         </p>
