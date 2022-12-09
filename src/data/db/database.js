@@ -156,7 +156,7 @@ const database = {
       title: "Portfolio 2.0 (en cours)",
       subtitle: "Familiarisation avec React Fiber et les animations blender.",
       imageUrl: "/images/portfolio-image-3.jpg",
-      url: '#'
+      url: 'https://portfolio3d.netlify.app/'
     },
     {
       id: 5,
