@@ -67,7 +67,7 @@ function About() {
       <Suspense fallback={<Spinner />}>
         <div className="mi-about-area mi-section mi-padding-top">
           <div className="container">
-            <Sectiontitle title="A propos" />
+            <Sectiontitle title="Qui suis-je?" />
             <div className="row align-items-center">
               <div className="col-lg-6">
                 <div className="mi-about-image">

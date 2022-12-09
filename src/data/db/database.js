@@ -3,7 +3,7 @@ import Mock from "../mock";
 const database = {
   information: {
     name: 'Michael Birepinte',
-    aboutContent: "Je suis un développeur junior, web et mobile. Tout juste reconverti, mais ayant toujours été très à l'aise avec la technologie, je suis à la recherche d'une nouvelle première expérience professionnelle. Curieux, autonome, et enthousiaste, je suis disponible pour travailler sur vos projets.",
+    aboutContent: "Je suis un développeur fullstack junior. Tout juste reconverti, mais ayant toujours été très à l'aise avec la technologie, je suis à la recherche d'une nouvelle première expérience professionnelle. Curieux, autonome, et enthousiaste, je suis disponible pour travailler sur vos projets.",
     age: 38,
     phone: '',
     nationality: '',
@@ -124,7 +124,7 @@ const database = {
     {
       id: 3,
       title: "Travel Mito",
-      subtitle: "Hackaton - Projet réalisé en 24h sur le thème voyage. TravelMito vous permet d'esquiver habilement une invitation à aller voir le dernier film des frères Dardenne, en pretextant un voyage et en vous en fournissant les preuves. ATTENTION : Ne fonctionne pas sur mobile, et mettra un peu de temps à charger suivant votre connexion.",
+      subtitle: "Hackaton - Projet réalisé en 24h sur le thème voyage. TravelMito vous permet d'esquiver habilement une invitation à un vernissage, en pretextant un voyage et en vous en fournissant les preuves. ATTENTION : Ne fonctionne pas sur mobile, et mettra un peu de temps à charger suivant votre connexion.",
       imageUrl: "/images/travelmito1.png",
       largeImageUrl: ["/images/travelmito1.png", "/images/travelmito2.png"],
       url: 'https://mbirepinte-github-io-travel-mito.vercel.app/'
