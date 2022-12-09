@@ -31,33 +31,38 @@ const database = {
       icon: 'brush-alt',
       details: "De formation fullstack, je suis aussi à l'aise avec le front-end que le back-end. Ayant travaillé en mode projet en mettant en pratique la méthode SCRUM, je saurais m'intégrer parfaitement à votre équipe."
     },
-    /* {
-      title: "Web Development",
-      icon: 'code',
-      details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
-    }, */
-/*     {
-      title: "Mobile Application",
-      icon: 'mobile',
-      details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
-    } */
   ],
   technos: [
     {
-      title: "Développement Web et Mobile",
-      icon: 'brush-alt',
-      details: "De formation fullstack, je suis aussi à l'aise avec le front-end que le back-end. Ayant travaillé en mode projet en mettant en pratique la méthode SCRUM, je saurais m'intégrer parfaitement à votre équipe."
+      title: "HTML5",
+      img: '/icons/html-5.png',
+      details: ""
     },
-    /* {
-      title: "Web Development",
-      icon: 'code',
-      details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
-    }, */
-/*     {
-      title: "Mobile Application",
-      icon: 'mobile',
-      details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
-    } */
+    {
+      title: "java-script",
+      img: '/icons/js.png',
+      details: ""
+    },
+    {
+      title: "SQL",
+      img: '/icons/database.png',
+      details: ""
+    },
+    {
+      title: "react",
+      img: '/icons/react.png',
+      details: ""
+    },
+    {
+      title: "nodejs",
+      img: '/icons/nodejs.png',
+      details: ""
+    },
+    {
+      title: "git",
+      img: '/icons/git.png',
+      details: ""
+    },
   ],
   reviews: [
     {

@@ -9,6 +9,7 @@ import Layout from "../components/Layout";
 import Sectiontitle from "../components/Sectiontitle";
 import Service from "../components/Service";
 import Spinner from "../components/Spinner";
+import Techno from "../components/Techno";
 import Testimonial from "../components/Testimonial";
 
 function About() {
@@ -105,11 +106,6 @@ function About() {
                     Je suis un développeur Junior, web et mobile, curieux, autonome, et enthousiaste.
                   </p>
                   <ul>
-              {/*       {!information.name ? null : (
-                      <li>
-                        <b>Je m'appelle</b> {information.name}
-                      </li>
-                    )} */}
                     {!information.age ? null : (
                       <li>
                         <b>Age</b> {information.age} Ans
@@ -181,7 +177,7 @@ function About() {
                     className="col-lg-4 col-md-6 col-12 mt-30"
                     key={service.title}
                   >
-                    <Service content={service} />
+                    <Techno content={service} />
                   </div>
                 ))}
               </div>
