@@ -136,6 +136,13 @@ const database = {
       imageUrl: "/images/portfolio-image-3.jpg",
       url: '#'
     },
+    {
+      id: 5,
+      title: "Workit (en cours)",
+      subtitle: "Réalisation d'un site type marketplace pour une entreprise spécialisée dans le recrutement IT. Sur la base d'US fournies par le client, nous réalisons le site en mode projet, de la base de données jusqu'au rendu final, incluant espace utilisateur, entreprise et administrateur.",
+      imageUrl: "/images/workit.png",
+      url: '#'
+    },
    /*  */
   ],
   experience: {
